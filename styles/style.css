@@ -345,6 +345,7 @@ align-items: center;
     margin-bottom: 30px;
 }
 .social-icons{
+    margin-top: 20px;
     display: flex;
     gap: 20px;
     font-size: 30px;
@@ -355,7 +356,7 @@ align-items: center;
     background-color: #FFF4E7 ;
     margin: auto;
     height: 60px;
-    width: 65%;
+    width: max-content;
     padding: 20px 70px;
     margin-bottom: 150px;
     display: flex;
@@ -369,3 +370,102 @@ align-items: center;
     text-align: center;
     
 }
+
+/* responsive starts */
+@media screen and (max-width:576px) {
+    .footer-section{
+        width: 100%;
+    }
+    .contact-section{
+        flex-direction: column;
+        width: 120%;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact-left{
+        width: 100%;
+        margin: auto;
+    }
+    .contact-input{
+        width: 100%;
+    }
+    .contact-input-area{
+        width: 100%;
+    }
+    .contact-right{
+        width: 100%;
+        margin: auto;
+    }
+    .sponsor-section{
+      width: 130%;
+    }
+    .sponsor-icons{
+        flex-wrap: wrap;
+    }
+    .facts-section{
+        width: 130%;
+        text-align: center;
+    }
+    .awards{
+        flex-direction: column;
+        justify-content: center;
+        gap: 40px;
+    }
+    .facts-description{
+        margin-bottom: 50px;
+    }
+    .second-feature-container{
+        flex-direction: column;
+        width: 130%;
+    
+    }
+    .second-feature-image > img{
+        width: 150%;
+        margin-top: -80px;
+    }
+    .exp-btn{
+        margin-top: -60px;
+        margin-left: 120px;
+    }
+    .first-feature-container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+    .first-feature-images{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav-head{
+       width: 135%;
+       
+
+    }
+    .nav-container{
+        flex-direction: column;
+        gap: 30px;
+        justify-content: space-between;
+        align-items: flex-start;
+        width: 80%;
+        
+    }
+    .nav-items{
+        flex-direction: column;
+        gap: 20px;
+        width: 30%;
+       
+    }
+
+}
+
+@media screen and (min-width:576px) and (max-width:992px) {
+}
+
+/* 
+.nav-head{
+    display: none;
+} */
