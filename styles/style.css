@@ -385,6 +385,8 @@ align-items: center;
 }
 
 /* responsive starts */
+
+/* small devices */
 @media screen and (max-width:576px) {
     .footer-section{
         width:100%;
@@ -479,6 +481,7 @@ align-items: center;
     }
 
 }
+
 /* tablet */
 
 @media screen and (min-width:577px) and (max-width:992px) {
@@ -560,14 +563,9 @@ align-items: center;
     }
     .first-feature-info{
        margin-left: 180px;
-        /* text-align: center;
-        justify-content: center;
-        text-align: center; */
-        
     }
     .nav-head{
        width: 135%;
-       
 
     }
     .nav-container{
@@ -585,8 +583,3 @@ align-items: center;
        
     }
 }
-
-/* 
-.nav-head{
-    display: none;
-} */
